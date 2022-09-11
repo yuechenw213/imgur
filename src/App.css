@@ -1,0 +1,91 @@
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(112, 76, 182);;
+  color: white;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.row:not(:last-child) {
+  margin-bottom: 16px;
+}
+.button {
+  appearance: none;
+  background: none;
+  font-size: 32px;
+  padding-left: 12px;
+  padding-right: 12px;
+  outline: none;
+  border: 2px solid transparent;
+  color: rgb(112, 76, 182);
+  padding-bottom: 4px;
+  cursor: pointer;
+  background-color: rgba(112, 76, 182, 0.1);
+  border-radius: 2px;
+  transition: all 0.15s;
+}
+
+.textbox {
+  font-size: 24px;
+  padding: 2px;
+  width: max-content;
+  text-align: center;
+  margin-right: 4px;
+}
+
+.button:hover,
+.button:focus {
+  border: 2px solid rgba(112, 76, 182, 0.4);
+}
+
+.button:active {
+  background-color: rgba(112, 76, 182, 0.2);
+}
+
+
+.box {
+  margin-top: 36px;
+  border-bottom: 4px solid rgba(112, 76, 182, 0.4);
+  border-top: 4px solid rgba(112, 76, 182, 0.4);
+  background-color: rgba(214, 200, 243, 0.4);
+  align-content: center;
+}
+.content {
+  max-width: 95%;
+  word-wrap: break-word;
+  overflow: scroll;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  padding: 2px;
+  width: max-content;
+  text-align: left;
+  margin-right: 4px;
+  margin-left: 4px;
+  overflow-wrap: break-word;
+  color: rgb(67, 67, 67)
+}
+
+.account {
+  font-size: 18px;
+  padding: 2px;
+  width: 95%;
+  text-align:right;
+  color: rgb(87, 59, 143);
+  margin-right: 4px;
+  margin-left: 4px;
+  margin-bottom: 12px;
+}
+
+.format {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: 0 auto;
+}
